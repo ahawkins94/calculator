@@ -71,9 +71,10 @@ if (operator === 'square') {
 }
 
 if (operator === 'pow') {
+
 	var numberOne = prompt ('Choose the number you want to find the power of:');
 	numberOne = parseFloat(numberOne);
-	var numberTwo = prompt ( numberOne + 'to the power of: ');
+	var numberTwo = prompt ( numberOne + ' to the power of: ');
 	numberTwo = parseFloat(numberTwo);
 
 	var numberThree = Math.pow(numberOne, numberTwo)
@@ -84,6 +85,7 @@ if (operator === 'pow') {
 
 
 if (operator === 'root') {
+
 	var numberOne = prompt ('Choose the number to find the square root of:');
 	numberOne = parseFloat(numberOne);
 
@@ -95,6 +97,14 @@ if (operator === 'root') {
 }	 
 
 if (operator !== ('+' || '-' || '/' || '*' || 'pow' || 'root' || 'square')) {
+
  	var operator = alert('Invalid operator! Please refresh the page and choose a correct operator: \n+ to add \n- to subtract\n* to multiply\n/ to divide\nsquare to square a number\npow to find the power of a number\nroot to find the square root of a number')
 
+} else {
+	alert('Refresh the page to do another calculation!')
 }
+
+
+
+
+
