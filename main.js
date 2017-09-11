@@ -98,7 +98,7 @@ if (operator === 'root') {
 
 if (operator !== ('+' || '-' || '/' || '*' || 'pow' || 'root' || 'square')) {
 
- 	var operator = alert('Invalid operator! Please refresh the page and choose a correct operator: \n+ to add \n- to subtract\n* to multiply\n/ to divide\nsquare to square a number\npow to find the power of a number\nroot to find the square root of a number')
+ 	alert('Invalid operator! Please refresh the page and choose a correct operator: \n+ to add \n- to subtract\n* to multiply\n/ to divide\nsquare to square a number\npow to find the power of a number\nroot to find the square root of a number')
 
 } else {
 	alert('Refresh the page to do another calculation!')
